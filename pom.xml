@@ -19,6 +19,19 @@
     	<artifactId>javax.servlet-api</artifactId>
     	<version>3.1.0</version>
     </dependency>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>dr1-releases</name>
+        <url>http://13.67.56.156:8081/artifactory/maven2</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>dr1-snapshots</name>
+        <url>http://13.67.56.156:8081/artifactory/maven2</url>
+    </snapshotRepository>
+</distributionManagement>
+
   </dependencies>
   <build>
     <finalName>mavenwebApp</finalName>
